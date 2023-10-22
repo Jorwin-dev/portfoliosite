@@ -1,10 +1,10 @@
 import './index.scss'
 import { Link, NavLink } from 'react-router-dom'
-import LogoS from '../../assets/images/images/logo-s.png'
-import LogoSubtitle from '../../assets/images/images/logo_sub.png'
+import LogoS from '../../assets/images/logo-s.png'
+import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
-import {faLinkedIn, faGithub, faYoutube, faSpotify } from '@fortawesome/free-brand-svg-icons'
+import {faLinkedinIn, faGithub, faYoutube, faSpotify } from '@fortawesome/free-brands-svg-icons'
 
 const Sidebar = () => {
     return (
@@ -27,7 +27,7 @@ const Sidebar = () => {
             <ul>
                 <li>
                     <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/jorwin-reyes-191b26257?'>
-                        <FontAwesomeIcon icon={faLinkedIn} color='#4d4d4e' />
+                        <FontAwesomeIcon icon={faLinkedinIn} color='#4d4d4e' />
                     </a>
                 </li>
                 <li>
